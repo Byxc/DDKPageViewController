@@ -49,25 +49,18 @@
     _pageViewController.currentPageIndex += 1;
 }
 
-#pragma mark - DDKBasePageViewControllerPageSource
+#pragma mark - DDKPageViewControllerPageSource
 - (UIViewController *)pageView:(DDKPageViewController *)pageView loadIndex:(NSInteger)index {
     UIViewController *viewController = nil;
     if (0 == index%2) {
         FirstViewController *first = [FirstViewController new];
-        first.index = index;
         viewController = first;
     }
     else {
         SecondViewController *second = [SecondViewController new];
-        second.index = index;
         viewController = second;
     }
     return viewController;
-}
-
-- (NSInteger)pageView:(DDKPageViewController *)pageView indexWithViewController:(UIViewController *)viewController {
-    FirstViewController *customController = (FirstViewController *)viewController;
-    return customController.index;
 }
 
 - (void)pageView:(DDKPageViewController *)pageView indexUpdate:(NSInteger)index {

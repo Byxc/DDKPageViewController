@@ -1,5 +1,5 @@
 //
-//  DDKBasePageViewController.m
+//  DDKPageViewController.m
 //  DDKanQiu
 //
 //  Created by 白云 on 2018/5/24.
@@ -9,7 +9,7 @@
 #import "DDKPageViewController.h"
 #import <objc/runtime.h>
 
-#define kChildShowNotification @"kDDKBasePageViewControllerChildShowNotification"
+#define kChildShowNotification @"kDDKPageViewControllerChildShowNotification"
 #define kPrivatePageIndexKey "kPrivatePageIndexKey"
 
 @interface UIViewController (DDKPage)

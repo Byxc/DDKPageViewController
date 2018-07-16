@@ -10,6 +10,4 @@
 
 @interface FirstViewController : UIViewController
 
-@property (nonatomic, assign) NSInteger index;
-
 @end

@@ -10,6 +10,4 @@
 
 @interface SecondViewController : UIViewController
 
-@property (nonatomic, assign) NSInteger index;
-
 @end
