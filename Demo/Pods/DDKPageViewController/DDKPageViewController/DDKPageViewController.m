@@ -1,5 +1,5 @@
 //
-//  DDKPageViewController.m
+//  DDKBasePageViewController.m
 //  DDKanQiu
 //
 //  Created by 白云 on 2018/5/24.
@@ -9,7 +9,7 @@
 #import "DDKPageViewController.h"
 #import <objc/runtime.h>
 
-#define kChildShowNotification @"kDDKPageViewControllerChildShowNotification"
+#define kChildShowNotification @"kDDKBasePageViewControllerChildShowNotification"
 #define kPrivatePageIndexKey "kPrivatePageIndexKey"
 
 @interface UIViewController (DDKPage)
@@ -97,6 +97,7 @@
     UIViewController *vc = nil;
     vc = [self.childCache objectForKey:[NSString stringWithFormat:@"%zd",index]];
     if ([vc isKindOfClass:[UIViewController class]]) {
+        NSLog(@"缓存");
         return vc;
     }
     if (self.pageSource != nil && [self.pageSource respondsToSelector:@selector(pageView:loadIndex:)]) {

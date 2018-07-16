@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595E2A1CFC5AF4AD30CA5927AA638718 /* DDKPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6223B7B44CF0892460AA93B69D4DA20 /* DDKPageViewController.m */; };
+		814D656D100BC06CA3B86A35CD51160B /* DDKPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C29892C468889D5BCF44243BB3038 /* DDKPageViewController-dummy.m */; };
+		82C329D71A76A68F57D1BC598DEF9839 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		DAF70816E58C19220AE29E2E9C63129D /* DDKPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD8E8BE130785002ABC9A4595E13583 /* DDKPageViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E68F7B7E4EE0067CBEBF7C456D1EA947 /* Pods-DDKPageViewControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9873CF042B72074B2AFBA5560F47AE /* Pods-DDKPageViewControllerDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631B3F8035770D5DDE313372D1A6EC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5006FEB7AC774092574EB24FAB82D2E2;
+			remoteInfo = DDKPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3C29892C468889D5BCF44243BB3038 /* DDKPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDKPageViewController-dummy.m"; sourceTree = "<group>"; };
+		1C2AB65C6D2163125F5F907E97E3492A /* DDKPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDKPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		262748E5710E50961AC4074FC46073C6 /* DDKPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDKPageViewController.xcconfig; sourceTree = "<group>"; };
+		51D8742B11B98947581AAA37FCAC6904 /* Pods-DDKPageViewControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDKPageViewControllerDemo-resources.sh"; sourceTree = "<group>"; };
+		62519E45A3D1C6517110DD89CCA76815 /* Pods-DDKPageViewControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDKPageViewControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		660B80CD9BD6069309BF633AAF6459D3 /* Pods-DDKPageViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDKPageViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		83671D4566ED42F7B0491624D0C6D026 /* libDDKPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDDKPageViewController.a; path = libDDKPageViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB59DBCBCCB74E97A3CEA984F13212C6 /* Pods-DDKPageViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDKPageViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ACB470968830FFC40A65D2ADACB7D21B /* libPods-DDKPageViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DDKPageViewControllerDemo.a"; path = "libPods-DDKPageViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89D24C6B2F5C08AB462E3494D3ACC60 /* Pods-DDKPageViewControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDKPageViewControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC9873CF042B72074B2AFBA5560F47AE /* Pods-DDKPageViewControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDKPageViewControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFD8E8BE130785002ABC9A4595E13583 /* DDKPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDKPageViewController.h; path = DDKPageViewController/DDKPageViewController.h; sourceTree = "<group>"; };
+		E62F51785468CE1A161427E961FEC8C4 /* Pods-DDKPageViewControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDKPageViewControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F6223B7B44CF0892460AA93B69D4DA20 /* DDKPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDKPageViewController.m; path = DDKPageViewController/DDKPageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB84F2FCFA0BCDD15D5F70A5BEBB603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C329D71A76A68F57D1BC598DEF9839 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58D1BDEBA5D79E94C6F2BE47E295917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E69AD62F69A376401E5B4013309CB8 /* DDKPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFD8E8BE130785002ABC9A4595E13583 /* DDKPageViewController.h */,
+				F6223B7B44CF0892460AA93B69D4DA20 /* DDKPageViewController.m */,
+				DA192EBABA1689CA939E63D5F602D8B3 /* Support Files */,
+			);
+			name = DDKPageViewController;
+			path = DDKPageViewController;
+			sourceTree = "<group>";
+		};
+		38892AA2686F115328ED9FC4A972E5B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83671D4566ED42F7B0491624D0C6D026 /* libDDKPageViewController.a */,
+				ACB470968830FFC40A65D2ADACB7D21B /* libPods-DDKPageViewControllerDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9C4A917861681AE4015609DA7035328E /* Pods */,
+				38892AA2686F115328ED9FC4A972E5B8 /* Products */,
+				AE3D0308D9A42C9E1CDF9BDAC972A907 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B457102F846BF8AB9F933B1615B752E /* Pods-DDKPageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				62519E45A3D1C6517110DD89CCA76815 /* Pods-DDKPageViewControllerDemo-acknowledgements.markdown */,
+				C89D24C6B2F5C08AB462E3494D3ACC60 /* Pods-DDKPageViewControllerDemo-acknowledgements.plist */,
+				DC9873CF042B72074B2AFBA5560F47AE /* Pods-DDKPageViewControllerDemo-dummy.m */,
+				E62F51785468CE1A161427E961FEC8C4 /* Pods-DDKPageViewControllerDemo-frameworks.sh */,
+				51D8742B11B98947581AAA37FCAC6904 /* Pods-DDKPageViewControllerDemo-resources.sh */,
+				660B80CD9BD6069309BF633AAF6459D3 /* Pods-DDKPageViewControllerDemo.debug.xcconfig */,
+				AB59DBCBCCB74E97A3CEA984F13212C6 /* Pods-DDKPageViewControllerDemo.release.xcconfig */,
+			);
+			name = "Pods-DDKPageViewControllerDemo";
+			path = "Target Support Files/Pods-DDKPageViewControllerDemo";
+			sourceTree = "<group>";
+		};
+		9C4A917861681AE4015609DA7035328E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E69AD62F69A376401E5B4013309CB8 /* DDKPageViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE3D0308D9A42C9E1CDF9BDAC972A907 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B457102F846BF8AB9F933B1615B752E /* Pods-DDKPageViewControllerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA192EBABA1689CA939E63D5F602D8B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				262748E5710E50961AC4074FC46073C6 /* DDKPageViewController.xcconfig */,
+				0D3C29892C468889D5BCF44243BB3038 /* DDKPageViewController-dummy.m */,
+				1C2AB65C6D2163125F5F907E97E3492A /* DDKPageViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DDKPageViewController";
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C14D89ACA1B65E6E7D26D8BA883DEB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF70816E58C19220AE29E2E9C63129D /* DDKPageViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25879FE2F344E0D73AA3BDCA7D1C3BB1 /* Pods-DDKPageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDEB4B59E9A5EE2B66247F802AF988 /* Build configuration list for PBXNativeTarget "Pods-DDKPageViewControllerDemo" */;
+			buildPhases = (
+				2A95F69861B64514AE0DB76BBAA092AD /* Sources */,
+				F58D1BDEBA5D79E94C6F2BE47E295917 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E41E73A819EACA22678C90381F32586E /* PBXTargetDependency */,
+			);
+			name = "Pods-DDKPageViewControllerDemo";
+			productName = "Pods-DDKPageViewControllerDemo";
+			productReference = ACB470968830FFC40A65D2ADACB7D21B /* libPods-DDKPageViewControllerDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5006FEB7AC774092574EB24FAB82D2E2 /* DDKPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E47257EDB2AEE3F05B9F5DDC3995000 /* Build configuration list for PBXNativeTarget "DDKPageViewController" */;
+			buildPhases = (
+				DF1CE691A00FD0EBAA2E10CF7CFB8AF5 /* Sources */,
+				1AB84F2FCFA0BCDD15D5F70A5BEBB603 /* Frameworks */,
+				0C14D89ACA1B65E6E7D26D8BA883DEB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDKPageViewController;
+			productName = DDKPageViewController;
+			productReference = 83671D4566ED42F7B0491624D0C6D026 /* libDDKPageViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 38892AA2686F115328ED9FC4A972E5B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5006FEB7AC774092574EB24FAB82D2E2 /* DDKPageViewController */,
+				25879FE2F344E0D73AA3BDCA7D1C3BB1 /* Pods-DDKPageViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A95F69861B64514AE0DB76BBAA092AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68F7B7E4EE0067CBEBF7C456D1EA947 /* Pods-DDKPageViewControllerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CE691A00FD0EBAA2E10CF7CFB8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814D656D100BC06CA3B86A35CD51160B /* DDKPageViewController-dummy.m in Sources */,
+				595E2A1CFC5AF4AD30CA5927AA638718 /* DDKPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E41E73A819EACA22678C90381F32586E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDKPageViewController;
+			target = 5006FEB7AC774092574EB24FAB82D2E2 /* DDKPageViewController */;
+			targetProxy = 631B3F8035770D5DDE313372D1A6EC9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		190B718881A1BDA08313745BCF238AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262748E5710E50961AC4074FC46073C6 /* DDKPageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DDKPageViewController/DDKPageViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DDKPageViewController;
+				PRODUCT_NAME = DDKPageViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E2EA402E4345AF7D6010A02DCF14439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660B80CD9BD6069309BF633AAF6459D3 /* Pods-DDKPageViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		302A7E21C7FEB09939B9A3831A62A8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB59DBCBCCB74E97A3CEA984F13212C6 /* Pods-DDKPageViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED968750D0DB9F2DDB82A243398D028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262748E5710E50961AC4074FC46073C6 /* DDKPageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DDKPageViewController/DDKPageViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DDKPageViewController;
+				PRODUCT_NAME = DDKPageViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E47257EDB2AEE3F05B9F5DDC3995000 /* Build configuration list for PBXNativeTarget "DDKPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED968750D0DB9F2DDB82A243398D028 /* Debug */,
+				190B718881A1BDA08313745BCF238AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDEB4B59E9A5EE2B66247F802AF988 /* Build configuration list for PBXNativeTarget "Pods-DDKPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2EA402E4345AF7D6010A02DCF14439 /* Debug */,
+				302A7E21C7FEB09939B9A3831A62A8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

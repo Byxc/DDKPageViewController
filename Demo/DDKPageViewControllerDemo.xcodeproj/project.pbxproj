@@ -13,13 +13,15 @@
 		76232C3620F89F3B00CC9F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76232C3520F89F3B00CC9F4F /* Assets.xcassets */; };
 		76232C3920F89F3B00CC9F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76232C3720F89F3B00CC9F4F /* LaunchScreen.storyboard */; };
 		76232C3C20F89F3B00CC9F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76232C3B20F89F3B00CC9F4F /* main.m */; };
-		76232C4520F89F4F00CC9F4F /* DDKPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76232C4420F89F4F00CC9F4F /* DDKPageViewController.m */; };
 		76232C4C20F89F8F00CC9F4F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76232C4620F89F8F00CC9F4F /* ThirdViewController.m */; };
 		76232C4D20F89F8F00CC9F4F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76232C4720F89F8F00CC9F4F /* FirstViewController.m */; };
 		76232C4E20F89F8F00CC9F4F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76232C4920F89F8F00CC9F4F /* SecondViewController.m */; };
+		AA23C88791BFD10FC36E3C51 /* libPods-DDKPageViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD7069044FD6316705644B /* libPods-DDKPageViewControllerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DBD7069044FD6316705644B /* libPods-DDKPageViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDKPageViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86DD942E417B490AEA84A4 /* Pods-DDKPageViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKPageViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDKPageViewControllerDemo/Pods-DDKPageViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		76232C2920F89F3900CC9F4F /* DDKPageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDKPageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76232C2C20F89F3900CC9F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76232C2D20F89F3900CC9F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,14 +32,13 @@
 		76232C3820F89F3B00CC9F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76232C3A20F89F3B00CC9F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76232C3B20F89F3B00CC9F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		76232C4320F89F4F00CC9F4F /* DDKPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDKPageViewController.h; sourceTree = "<group>"; };
-		76232C4420F89F4F00CC9F4F /* DDKPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDKPageViewController.m; sourceTree = "<group>"; };
 		76232C4620F89F8F00CC9F4F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		76232C4720F89F8F00CC9F4F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		76232C4820F89F8F00CC9F4F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		76232C4920F89F8F00CC9F4F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		76232C4A20F89F8F00CC9F4F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		76232C4B20F89F8F00CC9F4F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E4775F64BDCC7822646F162A /* Pods-DDKPageViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDKPageViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDKPageViewControllerDemo/Pods-DDKPageViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA23C88791BFD10FC36E3C51 /* libPods-DDKPageViewControllerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544C1520518C0A5883A7E590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBD7069044FD6316705644B /* libPods-DDKPageViewControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6456F07EFC6FDA1A2CBA237D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4775F64BDCC7822646F162A /* Pods-DDKPageViewControllerDemo.debug.xcconfig */,
+				3F86DD942E417B490AEA84A4 /* Pods-DDKPageViewControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76232C2020F89F3900CC9F4F = {
 			isa = PBXGroup;
 			children = (
 				76232C2B20F89F3900CC9F4F /* DDKPageViewControllerDemo */,
 				76232C2A20F89F3900CC9F4F /* Products */,
+				6456F07EFC6FDA1A2CBA237D /* Pods */,
+				544C1520518C0A5883A7E590 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +91,6 @@
 		76232C2B20F89F3900CC9F4F /* DDKPageViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				76232C4220F89F4F00CC9F4F /* DDKPageViewController */,
 				76232C4B20F89F8F00CC9F4F /* FirstViewController.h */,
 				76232C4720F89F8F00CC9F4F /* FirstViewController.m */,
 				76232C4A20F89F8F00CC9F4F /* SecondViewController.h */,
@@ -90,16 +110,6 @@
 			path = DDKPageViewControllerDemo;
 			sourceTree = "<group>";
 		};
-		76232C4220F89F4F00CC9F4F /* DDKPageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				76232C4320F89F4F00CC9F4F /* DDKPageViewController.h */,
-				76232C4420F89F4F00CC9F4F /* DDKPageViewController.m */,
-			);
-			name = DDKPageViewController;
-			path = ../../../DDKPageViewController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76232C3F20F89F3B00CC9F4F /* Build configuration list for PBXNativeTarget "DDKPageViewControllerDemo" */;
 			buildPhases = (
+				A97DF94821BD105C275DA048 /* [CP] Check Pods Manifest.lock */,
 				76232C2520F89F3900CC9F4F /* Sources */,
 				76232C2620F89F3900CC9F4F /* Frameworks */,
 				76232C2720F89F3900CC9F4F /* Resources */,
@@ -165,6 +176,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A97DF94821BD105C275DA048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDKPageViewControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76232C2520F89F3900CC9F4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -174,7 +206,6 @@
 				76232C4D20F89F8F00CC9F4F /* FirstViewController.m in Sources */,
 				76232C4C20F89F8F00CC9F4F /* ThirdViewController.m in Sources */,
 				76232C4E20F89F8F00CC9F4F /* SecondViewController.m in Sources */,
-				76232C4520F89F4F00CC9F4F /* DDKPageViewController.m in Sources */,
 				76232C3C20F89F3B00CC9F4F /* main.m in Sources */,
 				76232C2E20F89F3900CC9F4F /* AppDelegate.m in Sources */,
 			);
@@ -314,6 +345,7 @@
 		};
 		76232C4020F89F3B00CC9F4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4775F64BDCC7822646F162A /* Pods-DDKPageViewControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -334,6 +366,7 @@
 		};
 		76232C4120F89F3B00CC9F4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F86DD942E417B490AEA84A4 /* Pods-DDKPageViewControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

@@ -1,0 +1,16 @@
+PODS:
+  - DDKPageViewController (0.9.0)
+
+DEPENDENCIES:
+  - DDKPageViewController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DDKPageViewController
+
+SPEC CHECKSUMS:
+  DDKPageViewController: bde5e8cf6a4fde2cfd795155b53d40372172c929
+
+PODFILE CHECKSUM: 76600a8b19c2d75360948dec58f79137aecc3fef
+
+COCOAPODS: 1.5.3
