@@ -22,7 +22,7 @@
  @param index 索引值
  @return UIViewController
  */
-- (UIViewController *)viewControllerWithIndex:(NSUInteger)index;
+- (UIViewController *)viewControllerWithIndex:(NSInteger)index;
 
 @end
 

@@ -82,7 +82,7 @@
     if ([vc isKindOfClass:[UIViewController class]]) {
         if (self.pageSource && [self.pageSource respondsToSelector:@selector(pageView:indexUpdate:)]) {
             __weak typeof(self) weakSelf = self;
-            NSUInteger index = vc.privatePageIndex;
+            NSInteger index = vc.privatePageIndex;
             _currentPageIndex = index;
             [self.pageSource pageView:weakSelf indexUpdate:index];
         }
@@ -93,7 +93,7 @@
 }
 
 #pragma mark - Data
-- (UIViewController *)viewControllerWithIndex:(NSUInteger)index {
+- (UIViewController *)viewControllerWithIndex:(NSInteger)index {
     UIViewController *vc = nil;
     vc = [self.childCache objectForKey:[NSString stringWithFormat:@"%zd",index]];
     if ([vc isKindOfClass:[UIViewController class]]) {
@@ -111,8 +111,8 @@
     return vc;
 }
 
-- (NSUInteger)indexOfViewController:(UIViewController *)viewController {
-    NSUInteger index = NSNotFound;
+- (NSInteger)indexOfViewController:(UIViewController *)viewController {
+    NSInteger index = NSNotFound;
     index = viewController.privatePageIndex;
     return index;
 }
@@ -142,7 +142,7 @@
 
 #pragma mark - UIPageViewControllerDataSource
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController {
-    NSUInteger index = [self indexOfViewController:viewController];
+    NSInteger index = [self indexOfViewController:viewController];
     if (index == NSNotFound) {
         return nil;
     }
@@ -150,7 +150,7 @@
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController {
-    NSUInteger index = [self indexOfViewController:viewController];
+    NSInteger index = [self indexOfViewController:viewController];
     if (index == 0 || index == NSNotFound) {
         return nil;
     }
