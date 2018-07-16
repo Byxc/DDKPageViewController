@@ -14,8 +14,6 @@
 @interface ViewController () <DDKPageViewControllerPageSource>
 
 @property (nonatomic, strong) DDKPageViewController *pageViewController;
-@property (nonatomic, strong) NSTimer *timer;
-@property (nonatomic, assign) BOOL isPositive;
 
 @end
 
@@ -27,13 +25,10 @@
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
-    [_timer invalidate];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    _isPositive = YES;
     
     // DDKPageViewController
     _pageViewController = [[DDKPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
@@ -43,9 +38,6 @@
     [self.view insertSubview:_pageViewController.view atIndex:0];
     [_pageViewController didMoveToParentViewController:self];
     [_pageViewController setCurrentPageIndex:0];
-    // Timer
-    _timer = [NSTimer timerWithTimeInterval:0.5 target:self selector:@selector(timerCountAction) userInfo:nil repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
 }
 
 #pragma mark - Action
@@ -55,21 +47,6 @@
 
 - (IBAction)nexButtonClickAction:(id)sender {
     _pageViewController.currentPageIndex += 1;
-}
-
-- (void)timerCountAction {
-    if (_isPositive) {
-        _pageViewController.currentPageIndex += 1;
-    }
-    else {
-        _pageViewController.currentPageIndex -= 1;
-    }
-    if (_pageViewController.currentPageIndex == 0) {
-        _isPositive = YES;
-    }
-    if (_pageViewController.currentPageIndex == 100) {
-        _isPositive = NO;
-    }
 }
 
 #pragma mark - DDKBasePageViewControllerPageSource
