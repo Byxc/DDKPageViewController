@@ -2,6 +2,28 @@
 
 一个使用UIPageViewController封装实现的分页控件，在UIPageViewController的基础上做了一些改善以满足日常简单的分页需求
 
+[demo](https://github.com/Byxc/DDKPageViewController/tree/master/Demo)
+
+### 导入
+
+#### cocoapods方式
+
+```
+pod 'DDKPageViewController'
+
+// 在使用的类中导入头文件
+#import <DDKPageViewController.h>
+```
+
+#### 手动导入
+
+请将相关[文件下载](https://github.com/Byxc/DDKPageViewController/tree/master/DDKPageViewController)并导入到项目中
+
+```
+// 在使用的类中导入头文件
+#import "DDKPageViewController.h"
+```
+
 ### 使用方法
 
 使用方法基本和UIPageViewController一致，但需要使用``pageSource``中的代理方法来代替``UIPageViewController``中原有的``pageViewController: viewControllerBeforeViewController: ``和 ``pageViewController: viewControllerAfterViewController : ``方法，使用方法如下：
