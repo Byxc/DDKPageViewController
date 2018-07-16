@@ -2,10 +2,11 @@
 
 一个使用UIPageViewController封装实现的分页控件，在UIPageViewController的基础上做了一些改善以满足日常简单的分页需求
 
-##使用方法
+### 使用方法
 
 使用方法基本和UIPageViewController一致，但需要使用``pageSource``中的代理方法来代替``UIPageViewController``中原有的``pageViewController: viewControllerBeforeViewController: ``和 ``pageViewController: viewControllerAfterViewController : ``方法，使用方法如下：
-1.初始化
+
+1. 初始化
 
 ```
 // 使用UIPageViewController相同的创建方法
@@ -21,7 +22,8 @@ pageViewController.pageSource = self;
 [pageViewController setCurrentPageIndex:0];
 
 ```
-2.代理方法
+
+2. 代理方法
 
 ```
 #pragma mark - DDKPageViewControllerPageSource
@@ -47,7 +49,7 @@ pageViewController.pageSource = self;
 
 ```
 
-3.翻页
+3. 翻页
 
 使用属性``currentPageIndex``或者``setCurrentPageIndex方法``设置当前需要呈现的UIViewController的页索引值，DDKPageViewController将会通过调用代理方法``pageView: loadIndex: ``获取并设置给定索引值的UIViewController
 
@@ -62,7 +64,7 @@ pageViewController.pageSource = self;
 }
 ```
 
-##说明
+### 说明
 
 该控件是本人在项目中使用UIPageViewController的过程中遇到的一系列问题后的改良处理，并没有做到完全解决UIPageViewController的缺陷，但已满足一些简单的分页界面的搭建。如遇问题，欢迎和我[联系](mailto:924698172@qq.com)，如有更好的解决方法，欢迎告知。
 
