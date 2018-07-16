@@ -46,6 +46,7 @@ pageViewController.pageSource = self;
 ```
 
 3.翻页
+
 使用属性``currentPageIndex``或者``setCurrentPageIndex方法``设置当前需要呈现的UIViewController的页索引值，DDKPageViewController将会通过调用代理方法``pageView: loadIndex: ``获取并设置给定索引值的UIViewController
 
 ```
