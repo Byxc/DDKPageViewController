@@ -129,13 +129,6 @@
     return index;
 }
 
-- (void)preloadChildCacheWithIndex:(NSInteger)pageIndex {
-    dispatch_queue_t gobalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_async(gobalQueue, ^{
-        [self viewControllerWithIndex:pageIndex];
-    });
-}
-
 #pragma mark - Setter
 - (void)setCurrentPageIndex:(NSInteger)currentPageIndex {
     if (self.isBusy) {
