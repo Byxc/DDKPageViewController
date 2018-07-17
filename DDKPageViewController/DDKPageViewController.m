@@ -75,6 +75,7 @@
 #pragma mark - Notification
 - (void)addNotification {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(needUpdatePageIndexWithNotification:) name:kChildShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActiveAction) name:UIApplicationDidBecomeActiveNotification object:nil];
 }
 
 - (void)needUpdatePageIndexWithNotification:(NSNotification *)sender {
@@ -90,6 +91,18 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         self.isBusy = NO;
     });
+}
+
+- (void)applicationDidBecomeActiveAction {
+    // app恢复到前台时需要重载当前控制器，防止因为NSCache清理缓存导致的异常
+    UIViewController *currentViewController = [self viewControllerWithIndex:self.currentPageIndex];
+    if (currentViewController != nil) {
+        [super setViewControllers:@[currentViewController] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    }
+    else {
+        // 载入失败，重置
+        self.currentPageIndex = 0;
+    }
 }
 
 #pragma mark - Data
