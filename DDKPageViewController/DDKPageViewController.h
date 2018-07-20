@@ -1,9 +1,8 @@
 //
 //  DDKPageViewController.h
-//  DDKanQiu
 //
 //  Created by 白云 on 2018/5/24.
-//  Copyright © 2018年 jebatapp. All rights reserved.
+//  Copyright © 2018年 DDKPageViewController. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -15,6 +14,8 @@
 @property (nonatomic, weak) id<DDKPageViewControllerPageSource> pageSource;
 /// 当前索引
 @property(nonatomic,assign)NSInteger currentPageIndex;
+/// 最大缓存页数(默认为10)
+@property (nonatomic, assign) NSUInteger maxCacheCount;
 
 /**
  获取指定索引值的视图控制器
