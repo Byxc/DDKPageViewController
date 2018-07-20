@@ -40,8 +40,6 @@ pageViewController.pageSource = self;
 [self.view addSubView:pageViewController.view];
 [pageViewController didMoveToParentViewController:self];
 
-// 设置初始页面
-[pageViewController setCurrentPageIndex:0];
 
 ```
 
@@ -88,6 +86,6 @@ pageViewController.pageSource = self;
 
 ### 说明
 
-该控件是本人在项目中使用UIPageViewController的过程中遇到的一系列问题后的改良处理，并没有做到完全解决UIPageViewController的缺陷，但已满足一些简单的分页界面的搭建。如遇问题，欢迎和我[联系](mailto:924698172@qq.com)，如有更好的解决方法，欢迎告知。
+该控件是本人在项目中使用UIPageViewController时对UIPageViewController的封装和处理，可以满足常见的分页功能，使用过程中如遇问题，欢迎和我[联系](mailto:924698172@qq.com)，如果有好的建议，欢迎告知😊。
 
 
