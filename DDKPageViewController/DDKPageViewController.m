@@ -128,7 +128,7 @@ static char *const kPrivatePageIndexKey = "kPrivatePageIndexKey";
 
 - (void)needUpdatePageIndexWithNotification:(NSNotification *)sender {
     UIViewController *viewController = sender.object;
-    if ([viewController isKindOfClass:[UIViewController class]]) {
+    if ([viewController isKindOfClass:[UIViewController class]] && viewController.parentViewController == self) {
         if (self.pageSource && [self.pageSource respondsToSelector:@selector(pageView:indexUpdate:)]) {
             __weak typeof(self) weakSelf = self;
             NSInteger index = viewController.privatePageIndex;
